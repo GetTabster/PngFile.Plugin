@@ -1,7 +1,7 @@
-PngFile
+PngExport
 ====================
 
-[![Build status](https://ci.appveyor.com/api/projects/status/aychc4tunx3tfvn0?svg=true)](https://ci.appveyor.com/project/NateShoffner/tabster-plugin-pngfile)
+[![Build status](https://ci.appveyor.com/api/projects/status/aychc4tunx3tfvn0?svg=true)](https://ci.appveyor.com/project/NateShoffner/tabster-plugin-pngexport)
 
 Supports exporting to Portable Network Graphics (.png) files.
 
