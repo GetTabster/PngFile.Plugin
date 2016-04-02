@@ -11,18 +11,18 @@ assembly_info:
 before_build:
 - ps: nuget restore
 build:
-  project: PngFile.sln
+  project: PngExport.sln
 after_build:
 - ps: >-
     .\Deploy\archive.ps1
 artifacts:
-- path: PngFile.zip
+- path: PngExport.zip
   name: archive
 deploy:
   - provider: GitHub
     auth_token:
       secure: SD+1NPa8QJ8nAT9A4wsEog2pedpT8KaQebkDVB9mHbVze6nYABjcVzDa/5MXK0ZW
-    artifact: PngFile.zip
+    artifact: PngExport.zip
     draft: true
     on:
       branch: master

@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("PngFile")]
+[assembly: AssemblyTitle("PngExport")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Nate Shoffner")]
-[assembly: AssemblyProduct("PngFile")]
+[assembly: AssemblyProduct("PngExport")]
 [assembly: AssemblyCopyright("Copyright © Nate Shoffner 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

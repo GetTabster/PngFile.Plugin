@@ -9,7 +9,7 @@ using Tabster.Data.Processing;
 
 #endregion
 
-namespace PngFile
+namespace PngExport
 {
     internal class PngFileExporter : ITablatureFileExporter
     {
