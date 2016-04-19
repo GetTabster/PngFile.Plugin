@@ -11,7 +11,7 @@ using Tabster.Data.Processing;
 
 namespace PngExport
 {
-    internal class PngFileExporter : ITablatureFileExporter
+    public class PngFileExporter : ITablatureFileExporter
     {
         public PngFileExporter()
         {
